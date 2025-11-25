@@ -8,6 +8,8 @@ class problem_deadline:
     minute_deadline = None   # int
     importance = None        # int,
     hard = None              # int
+    category= None           # string
+    expect_time = None       # В часах скорее всего
     status=0;#0 если в процессе, 1 если выполнено, -1 если прошел дедлайн
 
     def __init__(self, time_to_set, important, hard, issue="unknown"):
