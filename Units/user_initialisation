@@ -1,0 +1,6 @@
+import json
+import zoneinfo
+
+# Получить множество всех доступных имён часовых поясов
+timezones = zoneinfo.available_timezones()
+print(sorted(timezones))
